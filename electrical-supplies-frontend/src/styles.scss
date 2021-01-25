@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.basic-container {
+  padding: 50px;
+
+  a {
+    text-decoration: none;
+    color: yellow;
+  }
+}
+
+.version-info {
+  color: black;
+  font-size: 8pt;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
