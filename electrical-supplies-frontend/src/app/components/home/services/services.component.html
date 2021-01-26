@@ -1,0 +1,18 @@
+<div fxLayoutAlign="space-between">
+  <img [src]="imgSrc"
+       (mouseover)="imgSrc = 'assets/services/powerGrid.jfif'"
+       (mouseout)="imgSrc = 'assets/services/back_image_edited.jpeg'">
+  <img src="assets/services/back_image.jfif" class="img-fluid " alt="Lab testing">
+  <img [appHighlight]="color" src="assets/services/back_image.jfif" class="img-fluid " alt="installation">
+  <img src="assets/services/back_image.jfif" class="img-fluid " alt="workshop induction">
+</div>
+
+<p appHighlight>Highlight me!</p>
+
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+  <input type="radio" name="colors" (click)="color='black'">Black
+</div>
+<p [appHighlight]="color">Highlight me!</p>
