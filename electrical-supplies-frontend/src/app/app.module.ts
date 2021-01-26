@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 
 import { HomeComponent, HeaderComponent, FooterComponent, ContactsComponent,
          FeaturesComponent, HelpComponent, MenuComponent, LoginComponent,
-          LogOutComponent } from './components/index';
+          LogOutComponent, TopImageComponent, ServicesComponent } from './components';
 import {  NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatDatepickerModule } from '@angular/material/datepicker';
@@ -39,6 +40,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 @NgModule({
@@ -52,13 +54,17 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     HelpComponent,
     MenuComponent,
     LoginComponent,
-    LogOutComponent
+    LogOutComponent,
+    TopImageComponent,
+    ServicesComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
+    NoopAnimationsModule,
     MatToolbarModule,
     MatInputModule,
     MatAutocompleteModule,
