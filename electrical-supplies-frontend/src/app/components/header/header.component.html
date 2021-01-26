@@ -1,4 +1,10 @@
 <mat-toolbar color="secondary">
+
+  <div class="row">
+    <a class="navbar-brand mobile-logo">
+      <img src="../../../assets/208c6d67-2715-490f-8a17-10cbc2414875_200x200.png" alt="Pindi Supplies">
+    </a>
+  </div>
 	<mat-nav-list class="list-horizontal">
 
      <mat-list-item>
@@ -16,7 +22,7 @@
     </mat-menu>
 
     <mat-list-item>
-      <button mat-menu-item [matMenuTriggerFor]="claimsmenu">Claims</button>
+      <button mat-menu-item>Claims</button>
     </mat-list-item>
     <mat-menu #claimsmenu="matMenu" [overlapTrigger]="false">
       <button mat-menu-item>
@@ -30,7 +36,7 @@
     </mat-menu>
 
     <mat-list-item>
-      <button mat-menu-item [matMenuTriggerFor]="mcsMenu">Managed Care Solutions</button>
+      <button mat-menu-item>Managed Care Solutions</button>
     </mat-list-item>
     <mat-menu #mcsMenu="matMenu" [overlapTrigger]="false">
       <button mat-menu-item>
@@ -40,7 +46,7 @@
     </mat-menu>
 
     <mat-list-item>
-      <button mat-menu-item [matMenuTriggerFor]="referralsmenu">Referrals</button>
+      <button mat-menu-item>Referrals</button>
     </mat-list-item>
     <mat-menu #referralsmenu="matMenu" [overlapTrigger]="false">
       <button mat-menu-item>
@@ -58,7 +64,7 @@
     </mat-menu>
 
     <mat-list-item>
-      <button mat-menu-item [matMenuTriggerFor]="DRmenu">Dashboards & Reports</button>
+      <button mat-menu-item>Dashboards & Reports</button>
     </mat-list-item>
     <mat-menu #DRmenu="matMenu" [overlapTrigger]="false">
       <button mat-menu-item>
@@ -72,7 +78,7 @@
     </mat-menu>
 
     <mat-list-item>
-      <button mat-menu-item [matMenuTriggerFor]="adminmenu">Administration</button>
+      <button mat-menu-item>Administration</button>
     </mat-list-item>
     <mat-menu #adminmenu="matMenu" [overlapTrigger]="false">
       <button mat-menu-item>
@@ -86,22 +92,8 @@
     </mat-menu>
 
     <mat-list-item>
-      <button mat-menu-item [matMenuTriggerFor]="searchmenu">Search</button>
+      <button mat-menu-item>Search</button>
     </mat-list-item>
-    <mat-menu #searchmenu="matMenu" [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Bills</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>save_alt</mat-icon>
-        <span>Claims </span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Providers</span>
-      </button>
-    </mat-menu>
 
 
 
