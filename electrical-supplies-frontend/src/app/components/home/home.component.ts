@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TopImageComponent } from './top-image/top-image.component';
 
 @Component({
   selector: 'app-home',
