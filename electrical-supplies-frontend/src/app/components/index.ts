@@ -9,3 +9,5 @@ export * from './help/help.component';
 export * from './log-out/log-out.component';
 export * from './login/login.component';
 export * from './menu/menu.component';
+export * from './home/top-image/top-image.component';
+export * from './home/services/services.component';
