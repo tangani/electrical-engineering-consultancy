@@ -6,22 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent implements OnInit {
-  // private string: ;
 
   constructor() { }
 
-  color = 'yellow';
-  imgSrc = 'assets/services/back_image_edited.jpeg';
+  imgSrc1 = 'assets/services/back_image_edited.jpeg';
+  imgSrc2 = 'assets/services/back_image_edited.jpeg';
+  imgSrc3 = 'assets/services/back_image_edited.jpeg';
+  imgSrc4 = 'assets/services/back_image_edited.jpeg';
 
   ngOnInit(): void {
   }
 
   onMouseOver(): void {
-    this.imgSrc = 'assets/services/back_image_edited.jpeg';
+    this.imgSrc1 = 'assets/services/back_image_edited.jpeg';
+  }
+  onMouseOver1(): void {
+    this.imgSrc1 = 'assets/services/back_image_edited.jpeg';
   }
 
   onMouseOut(): void {
-    this.imgSrc = 'assets/services/back_image_edited.jpeg';
+    this.imgSrc1 = 'assets/services/back_image_edited.jpeg';
   }
 
 }

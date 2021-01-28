@@ -1,6 +1,24 @@
 img {
-  width: 24.5%;
+  width: 25%;
   height: 75%;
   // object-fit: cover;
-  // top: 50%;
+  top: 50%;
+  // opacity: 0.5;
+}
+
+.img-fluid1:hover { opacity : 0.5;}
+.img-fluid2:hover { opacity : 0.5;}
+.img-fluid3:hover { opacity : 0.5;}
+.img-fluid4:hover {
+  opacity : 0;
+  filter: grayscale(100%);
+}
+
+.example-card {
+  width: 200px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
 }
