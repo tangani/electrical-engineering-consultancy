@@ -11,3 +11,7 @@ export * from './login/login.component';
 export * from './menu/menu.component';
 export * from './home/top-image/top-image.component';
 export * from './home/services/services.component';
+export * from './about-us/about-us.component';
+export * from './our-team/our-team.component';
+export * from './register/register.component';
+export * from './why-choose-us/why-choose-us.component';

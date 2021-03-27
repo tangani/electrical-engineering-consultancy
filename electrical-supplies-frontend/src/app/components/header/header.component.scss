@@ -1,8 +1,28 @@
-mat-nav-list.list-horizontal {
-  padding: 0;
+mat-toolbar.fixed-top {
+  color: white;
+  background-color: black;
+  // flex-wrap: wrap;
+  // display: flex;
+  // align-content: space-between;
   .mat-list-item {
     display: inline-block;
     height: auto;
     width: auto;
+    z-index: 100;
   }
+}
+
+.mobile-logo{
+  height: 80%;
+  width: 60%;
+  float: left;
+}
+
+.search {
+  flex: max-content;
+}
+
+.h6 {
+  font-family: math, monospace;
+  font-size: 0.2em;
 }

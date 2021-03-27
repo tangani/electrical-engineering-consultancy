@@ -1,6 +1,34 @@
 img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
-  top: 50%;
+  top: 60%;
+  // margin-top: 50px;
 }
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 70%;
+  right: 20%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  // font-family: 'times new roman', serif;
+  font-family: math;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: 20px;
+}
+

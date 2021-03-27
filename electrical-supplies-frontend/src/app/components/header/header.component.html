@@ -1,102 +1,21 @@
-<mat-toolbar color="secondary">
-
-  <div class="row">
-    <a class="navbar-brand mobile-logo">
-      <img src="../../../assets/208c6d67-2715-490f-8a17-10cbc2414875_200x200.png" alt="Pindi Supplies">
+<mat-toolbar class="fixed-top">
+  <span fxFlex fxLayoutAlign="start">
+    <a class="navbar-brand mobile-logo" mat-button routerLink="/home">
+      <img src="../../../assets/pindi_modified.png" alt="Pindi Supplies">
     </a>
-  </div>
-	<mat-nav-list class="list-horizontal">
+  </span>
+  <span fxFlex fxLayoutAlign="center space-evenly">
+    <a mat-button routerLink="/our-team" routerLinkActive="router-link-active"><h1>Our Team</h1></a>
+    <a mat-button routerLink="/about-us" routerLinkActive="router-link-active"><h1>About</h1></a>
+    <a mat-button routerLink="/portfolio" routerLinkActive="router-link-active"><h1>Portfolio</h1></a>
+    <a mat-button routerLink="/services" routerLinkActive="router-link-active"><h1>Services</h1></a>
+    <a mat-button routerLink="/contact" routerLinkActive="router-link-active"><h1>Contact</h1></a>
+  </span>
+  <span fxFlex></span>
 
-     <mat-list-item>
-      <button mat-menu-item>Home</button>
-    </mat-list-item>
-
-	  <mat-list-item>
-      <button mat-menu-item>Bills</button>
-    </mat-list-item>
-    <mat-menu [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Bill Management</span>
-      </button>
-    </mat-menu>
-
-    <mat-list-item>
-      <button mat-menu-item>Claims</button>
-    </mat-list-item>
-    <mat-menu #claimsmenu="matMenu" [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Claims Management</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>save_alt</mat-icon>
-        <span>My Downloads </span>
-      </button>
-    </mat-menu>
-
-    <mat-list-item>
-      <button mat-menu-item>Managed Care Solutions</button>
-    </mat-list-item>
-    <mat-menu #mcsMenu="matMenu" [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>UR Management</span>
-      </button>
-    </mat-menu>
-
-    <mat-list-item>
-      <button mat-menu-item>Referrals</button>
-    </mat-list-item>
-    <mat-menu #referralsmenu="matMenu" [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Telephonic Case Management</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>save_alt</mat-icon>
-        <span>Utilization Review </span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Pharmacy Management</span>
-      </button>
-    </mat-menu>
-
-    <mat-list-item>
-      <button mat-menu-item>Dashboards & Reports</button>
-    </mat-list-item>
-    <mat-menu #DRmenu="matMenu" [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Dashboards</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>save_alt</mat-icon>
-        <span>Reports </span>
-      </button>
-    </mat-menu>
-
-    <mat-list-item>
-      <button mat-menu-item>Administration</button>
-    </mat-list-item>
-    <mat-menu #adminmenu="matMenu" [overlapTrigger]="false">
-      <button mat-menu-item>
-        <mat-icon>home</mat-icon>
-        <span>Coverage</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>save_alt</mat-icon>
-        <span>Configuration</span>
-      </button>
-    </mat-menu>
-
-    <mat-list-item>
-      <button mat-menu-item>Search</button>
-    </mat-list-item>
-
-
-
-
-  </mat-nav-list>
+  <a>
+    pindi@tangani.co.za
+    <br>
+    <h6>+27 78 445 2989</h6>
+  </a>
 </mat-toolbar>

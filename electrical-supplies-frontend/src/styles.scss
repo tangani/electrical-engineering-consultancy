@@ -7,6 +7,16 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+$black: black;
+$grayish: #292c2f;
+$red: #b3060c;
+$yellow: #FFCB02;
+$white: #ffffff;
+$gainsboro: #dcdcdc;
+$green: #00AB66;
+$purple:#800080;
+$excel: #003300;
+$brightRed: red;
 
 .basic-container {
   padding: 50px;
@@ -24,4 +34,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   bottom: 0;
   right: 0;
 }
+
 
